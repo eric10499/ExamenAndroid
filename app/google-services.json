@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888822358896",
+    "firebase_url": "https://jdarestaurant-36ba7.firebaseio.com",
+    "project_id": "jdarestaurant-36ba7",
+    "storage_bucket": "jdarestaurant-36ba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888822358896:android:81f9e4f0e46711c4",
+        "android_client_info": {
+          "package_name": "com.example.cf17ericvisier.jdarestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888822358896-ld123ktanfg2sc2tk375gfg0slfbp6fj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cf17ericvisier.jdarestaurant",
+            "certificate_hash": "c9d033e5af777a2f9d8faf3efde2557c4b91ba34"
+          }
+        },
+        {
+          "client_id": "888822358896-q38dlf7ketjss3rnftiogf8cjvbne4vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRhWooZhSpRCyuJUIau_mgpmngh3-l4es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888822358896-q38dlf7ketjss3rnftiogf8cjvbne4vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

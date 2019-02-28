@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <TextView
+           android:id="@+id/fecha"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="90dp"
+           android:layout_marginLeft="90dp"
+           android:layout_marginTop="48dp"
+           android:layout_marginEnd="97dp"
+           android:layout_marginRight="97dp"
+           android:layout_marginBottom="50dp"
+           android:text="Fecha"
+           android:textColor="@android:color/background_dark"
+           app:layout_constraintBottom_toTopOf="@+id/comensales"
+           app:layout_constraintEnd_toStartOf="@+id/edit_fecha"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+           android:id="@+id/comensales"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="89dp"
+           android:layout_marginLeft="89dp"
+           android:layout_marginTop="49dp"
+           android:layout_marginEnd="59dp"
+           android:layout_marginRight="59dp"
+           android:layout_marginBottom="55dp"
+           android:text="Comensales"
+           android:textColor="@android:color/background_dark"
+           app:layout_constraintBottom_toTopOf="@+id/nombre"
+           app:layout_constraintEnd_toStartOf="@+id/edit_comensales"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/fecha" />
+
+       <TextView
+           android:id="@+id/nombre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="88dp"
+           android:layout_marginLeft="88dp"
+           android:layout_marginTop="30dp"
+           android:layout_marginEnd="86dp"
+           android:layout_marginRight="86dp"
+           android:layout_marginBottom="40dp"
+           android:text="Nombre"
+           android:textColor="@android:color/background_dark"
+           app:layout_constraintBottom_toTopOf="@+id/telefono"
+           app:layout_constraintEnd_toStartOf="@+id/edit_nombre"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/comensales" />
+
+       <TextView
+           android:id="@+id/telefono"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="88dp"
+           android:layout_marginLeft="88dp"
+           android:layout_marginTop="12dp"
+           android:layout_marginEnd="81dp"
+           android:layout_marginRight="81dp"
+           android:layout_marginBottom="17dp"
+           android:text="Telefono"
+           android:textColor="@android:color/background_dark"
+           app:layout_constraintBottom_toTopOf="@+id/comentarios"
+           app:layout_constraintEnd_toStartOf="@+id/edit_telefono"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+       <TextView
+           android:id="@+id/comentarios"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="88dp"
+           android:layout_marginLeft="88dp"
+           android:layout_marginTop="1dp"
+           android:layout_marginEnd="216dp"
+           android:layout_marginRight="216dp"
+           android:layout_marginBottom="5dp"
+           android:text="Comentarios"
+           android:textColor="@android:color/background_dark"
+           app:layout_constraintBottom_toTopOf="@+id/edit_comentarios"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/telefono" />
+
+       <EditText
+           android:id="@+id/edit_fecha"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="97dp"
+           android:layout_marginLeft="97dp"
+           android:layout_marginTop="37dp"
+           android:layout_marginEnd="138dp"
+           android:layout_marginRight="138dp"
+           android:background="@mipmap/ic_launcher"
+           android:textColor="@android:color/background_dark"
+           android:visibility="visible"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toEndOf="@+id/fecha"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <EditText
+           android:id="@+id/edit_comentarios"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="170dp"
+           android:layout_marginLeft="170dp"
+           android:layout_marginTop="1dp"
+           android:layout_marginEnd="67dp"
+           android:layout_marginRight="67dp"
+           android:layout_marginBottom="410dp"
+           android:background="@mipmap/ic_launcher"
+           android:textColor="@android:color/background_dark"
+           android:visibility="visible"
+           app:layout_constraintBottom_toTopOf="@+id/enviar"
+           app:layout_constraintEnd_toStartOf="@+id/edit_fecha"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <EditText
+           android:id="@+id/edit_nombre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="58dp"
+           android:layout_marginLeft="58dp"
+           android:layout_marginTop="21dp"
+           android:layout_marginEnd="138dp"
+           android:layout_marginRight="138dp"
+           android:layout_marginBottom="44dp"
+           android:background="@mipmap/ic_launcher"
+           android:textColor="@android:color/background_dark"
+           android:visibility="visible"
+           app:layout_constraintBottom_toTopOf="@+id/edit_telefono"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toEndOf="@+id/comensales"
+           app:layout_constraintTop_toBottomOf="@+id/edit_comensales" />
+
+       <EditText
+           android:id="@+id/edit_telefono"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="85dp"
+           android:layout_marginLeft="85dp"
+           android:layout_marginTop="44dp"
+           android:layout_marginEnd="139dp"
+           android:layout_marginRight="139dp"
+           android:background="@mipmap/ic_launcher"
+           android:textColor="@android:color/background_dark"
+           android:visibility="visible"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toEndOf="@+id/nombre"
+           app:layout_constraintTop_toBottomOf="@+id/edit_nombre" />
+
+       <EditText
+           android:id="@+id/edit_comensales"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@mipmap/ic_launcher"
+           android:visibility="visible"
+           tools:layout_editor_absoluteX="211dp"
+           tools:layout_editor_absoluteY="158dp" />
+
+       <Button
+           android:id="@+id/enviar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="148dp"
+           android:layout_marginLeft="148dp"
+           android:layout_marginBottom="63dp"
+           android:text="Enviar Reserva"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+
+
+   </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
